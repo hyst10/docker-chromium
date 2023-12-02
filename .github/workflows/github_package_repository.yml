@@ -1,6 +1,5 @@
 name: Publish Docker image to GitHub Package Registry
 on: push
-    tags: ['v*']
 jobs:
   build:
     runs-on: ubuntu-latest 
