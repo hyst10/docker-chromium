@@ -6,6 +6,7 @@
 # https://github.com/anchore/grype
 name: Anchore Container Scan 2
 on: push
+    tags: ['v*']
 jobs:
   Anchore-Build-Scan:
     runs-on: ubuntu-latest
