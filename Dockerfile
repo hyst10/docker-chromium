@@ -104,8 +104,8 @@ RUN \
         /etc/xdg/openbox/rc.xml
 
 # Generate and install favicons.
-RUN \
-    APP_ICON_URL=https://www.chromium.org/_/rsrc/1438879449147/config/customLogo.gif && \
+#RUN \
+    #APP_ICON_URL=https://www.chromium.org/_/rsrc/1438879449147/config/customLogo.gif && \
     install_app_icon.sh "$APP_ICON_URL"
 
 # Add files.
